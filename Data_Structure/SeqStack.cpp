@@ -10,11 +10,11 @@ typedef struct
     int top;
 }SeqStack;
 
-void InitStack(SeqStack &S)//Initialize the sequence stack
-void Push(SeqStack &S, ElementType x)//push a value to the top of stack
-void Pop(SeqStack &S)//delete the top value of stack
-ElementType GetTop(SeqStack S)//return the top value of stack
-void Print(SeqStack S)//print all the elements of stack
+void InitStack(SeqStack &S);//Initialize the sequence stack
+void Push(SeqStack &S, ElementType x);//push a value to the top of stack
+void Pop(SeqStack &S);//delete the top value of stack
+ElementType GetTop(SeqStack S);//return the top value of stack
+void Print(SeqStack S);//print all the elements of stack
 
 void InitStack(SeqStack &S)
 {//Initialize the sequence stack
