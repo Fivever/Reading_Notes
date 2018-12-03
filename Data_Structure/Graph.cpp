@@ -152,7 +152,7 @@ void Prim_MTGraph(MTGraph &MG)
 {//prim algorithm implement based on matrix graph
     int minn, t=0;
     bool ok;
-    for(int i=t;i<MG.v;i++)
+    for(int i=t;i<MG.v+1;i++)
     {
         i=t,ok=false;
         MG.visited[i]=true;
@@ -176,10 +176,6 @@ int main()
 {//test both of adjacent graph and matrix graph
     AdjGraph AG;
     MTGraph MG;
-    /*To test dfs and bfs algorithm, Sample Input:
-    9 8 0 3 1 0 2 1 0 1 1 1 4 1 4 6 1 2 5 1 5 7 1 7 8 1
-    To test prim algorithm: Sample Input:
-    7 18 0 1 28 1 2 16 2 3 12 0 5 10 5 4 25 4 3 22 1 6 14 3 6 18 4 6 24 
-        1 0 28 2 1 16 3 2 12 5 0 10 4 5 25 3 4 22 6 1 14 6 3 18 6 4 24*/
+    /*Sample Input: 6 10 5 0 3 0 1 5 1 2 4 3 2 5 4 3 5 5 4 1 0 3 7 3 5 6 2 5 9 2 0 8*/
     CreateGraph(AG,MG);
 }
