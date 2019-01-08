@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Dec 17 09:14:08 2018
+# Process ID: 141392
+# Current directory: D:/Work/vivado_project/vga_Display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent141176 D:\Work\vivado_project\vga_Display\vga_Display.xpr
+# Log file: D:/Work/vivado_project/vga_Display/vivado.log
+# Journal file: D:/Work/vivado_project/vga_Display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Work/vivado_project/vga_Display/vga_Display.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display/vga_Display.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display/vga_Display.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display/vga_Display.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display/vga_Display.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+close_project
+open_project D:/Work/vivado_project/vga_Display_char/vga_Display_char.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display_char/vga_Display_char.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Work/vivado_project/vga_Display_char/vga_Display_char.runs/impl_1/vga_Display_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_hw
+synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Users/WJZ/Desktop/schematic.pdf
+close_design

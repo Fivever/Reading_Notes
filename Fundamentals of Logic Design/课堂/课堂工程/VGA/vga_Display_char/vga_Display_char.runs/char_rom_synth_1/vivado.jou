@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Dec  5 11:27:42 2017
+# Process ID: 6780
+# Current directory: D:/Work/vivado_project/vga_Display_char/vga_Display_char.runs/char_rom_synth_1
+# Command line: vivado.exe -log char_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source char_rom.tcl
+# Log file: D:/Work/vivado_project/vga_Display_char/vga_Display_char.runs/char_rom_synth_1/char_rom.vds
+# Journal file: D:/Work/vivado_project/vga_Display_char/vga_Display_char.runs/char_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source char_rom.tcl -notrace

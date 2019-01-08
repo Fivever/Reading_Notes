@@ -1,0 +1,7 @@
+; Memory Width: 16, Memory Depth: 32
+memory_initialization_radix=16;
+memory_initialization_vector=
+1234, 5678, abcd, efef,
+349a, 1ef6, 2398, ab77,
+6749, 7658, dba7, f60d,
+1122, aace, 8907, 6a7d;

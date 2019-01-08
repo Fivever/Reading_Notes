@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Wed Dec  5 00:28:33 2018
+# Process ID: 14280
+# Current directory: D:/nondebounce/nondebounce.runs/impl_1
+# Command line: vivado.exe -log nondebounce_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source nondebounce_top.tcl -notrace
+# Log file: D:/nondebounce/nondebounce.runs/impl_1/nondebounce_top.vdi
+# Journal file: D:/nondebounce/nondebounce.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source nondebounce_top.tcl -notrace

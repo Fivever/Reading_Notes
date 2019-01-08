@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Tue Nov 21 16:05:58 2017
+# Process ID: 1036
+# Current directory: D:/Work/vivado_project/sel_4_1/sel_4_1.runs/impl_1
+# Command line: vivado.exe -log sel_4_1.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source sel_4_1.tcl -notrace
+# Log file: D:/Work/vivado_project/sel_4_1/sel_4_1.runs/impl_1/sel_4_1.vdi
+# Journal file: D:/Work/vivado_project/sel_4_1/sel_4_1.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source sel_4_1.tcl -notrace

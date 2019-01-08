@@ -1,0 +1,10 @@
+
+****** Webtalk v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source D:/Work/vivado_project/vga_Display_img/vga_Display_img.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Work/vivado_project/vga_Display_img/vga_Display_img.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Mon Dec 17 12:37:05 2018. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2017.3/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 52.758 ; gain = 0.703
+INFO: [Common 17-206] Exiting Webtalk at Mon Dec 17 12:37:05 2018...

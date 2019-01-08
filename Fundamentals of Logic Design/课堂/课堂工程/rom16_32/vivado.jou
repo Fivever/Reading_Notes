@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Mon Dec 17 16:22:17 2018
+# Process ID: 74812
+# Current directory: D:/Work/vivado_project/rom16_32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent68812 D:\Work\vivado_project\rom16_32\rom16_32.xpr
+# Log file: D:/Work/vivado_project/rom16_32/vivado.log
+# Journal file: D:/Work/vivado_project/rom16_32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Work/vivado_project/rom16_32/rom16_32.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/Work/vivado_project/init.coe] -no_script -reset -force -quiet
+remove_files  D:/Work/vivado_project/init.coe
+set_property -dict [list CONFIG.Coe_File {D:/Work/vivado_project/rom16_32/init.coe}] [get_ips rom16_32]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/Work/vivado_project/rom16_32/rom16_32.runs/impl_1/rom16_32_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/Work/vivado_project/rom16_32/rom16_32.runs/impl_1/rom16_32_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
